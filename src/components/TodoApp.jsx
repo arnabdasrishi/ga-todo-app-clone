@@ -27,7 +27,7 @@ const TodoApp = () => {
     });
   }, []);
   return (
-    <div>
+    <div style={{fontSize:"25px"}}>
       <h3>TodoApp</h3>
       <TodoInput
         value={value}
